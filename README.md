@@ -13,7 +13,7 @@ A React component library with cinematic tactical UI aesthetics. Inspired by com
 ## Installation
 
 ```bash
-npm install tactical-ui
+npm install tactical-ui-kit
 ```
 
 ## Recommended Fonts
@@ -73,8 +73,8 @@ Avatar,
 Skeleton,
 EmptyState,
 Tabs,
-} from "tactical-ui";
-import "tactical-ui/dist/tactical.css";
+} from "tactical-ui-kit";
+import "tactical-ui-kit/dist/tactical.css";
 
 const sampleData = [
 { id: "P-1047", name: "Sarah Chen", rank: "Major", unit: "ALPHA-1", status: "active" },

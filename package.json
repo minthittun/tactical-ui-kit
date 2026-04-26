@@ -1,0 +1,61 @@
+{
+  "name": "tactical-ui-kit",
+  "version": "1.0.0",
+  "description": "React component library with tactical UI aesthetics - cinematic, dark-themed components inspired by command center interfaces",
+  "type": "module",
+  "main": "./dist/tactical-ui.js",
+  "module": "./dist/tactical-ui.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/tactical-ui.js",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/tactical-ui.js"
+    },
+    "./dist/tactical.css": "./dist/tactical.css",
+    "./styles": "./dist/tactical.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run build:js && npm run build:types && npm run copy:css",
+    "build:js": "vite build",
+    "build:types": "tsc --emitDeclarationOnly --declaration --outDir dist",
+    "copy:css": "cp src/styles/tactical.css dist/",
+    "test": "vitest",
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.4.21",
+    "vitest": "^1.4.0"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "tactical",
+    "dark-theme",
+    "command-center",
+    "dashboard"
+  ],
+  "author": "Min Thit Tun <minthittun@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minthittun/tactical-ui-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minthittun/tactical-ui-kit/issues"
+  },
+  "homepage": "https://github.com/minthittun/tactical-ui-kit#readme"
+}

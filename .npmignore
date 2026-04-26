@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Source files
+src/
+
+# Configuration files
+tsconfig.json
+vite.config.js
+
+# Development files
+.env
+.env.*
+*.local
+
+# Version control
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+
+# Build intermediates
+build/
+
+# Demo/test files (not needed by consumers)
+test-app/
+stories/
+demo/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Documentation sources
+*.md
+!LICENSE
+!CHANGELOG.md
+
+# CI/CD (not needed in package)
+.github/
+.travis.yml
+.circleci/
+
+# Development docs
+AGENTS.md
+CONTRIBUTING.md
+CHANGELOG.md

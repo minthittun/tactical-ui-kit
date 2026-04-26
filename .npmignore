@@ -55,6 +55,7 @@ __tests__/
 
 # Documentation sources
 *.md
+!README.md
 !LICENSE
 !CHANGELOG.md
 

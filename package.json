@@ -1,6 +1,6 @@
 {
   "name": "tactical-ui-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component library with tactical UI aesthetics - cinematic, dark-themed components inspired by command center interfaces",
   "type": "module",
   "main": "./dist/tactical-ui.js",
